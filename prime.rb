@@ -1,16 +1,15 @@
 def prime? (number) # Add  code here!
-  array =* (1..number)
-  counter = 0
-  loop do
-    if number % array[counter] == 0
-      test_array = Array.new.push(array[counter])
-      counter += 1
+counter = 2
+  if number < 1
+    return false
   end
-end
-
-  if test_array == [1, number]
-    return 'true'
-  else
-    return 'false'
+  while counter < number
+    if number % counter == 0
+      return false
+    end
+    counter += 1
+    break if counter == number
+  end
+    return true
   end
 end
