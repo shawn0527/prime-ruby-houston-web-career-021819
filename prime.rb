@@ -1,5 +1,5 @@
 def prime? (number) # Add  code here!
-  array = Array (1..number)
+  array =* (1..number)
   counter = 0
   loop do
     if number % array[counter] == 0
