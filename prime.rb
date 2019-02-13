@@ -11,5 +11,4 @@ counter = 2
     break if counter == number
   end
     return true
-  end
 end
