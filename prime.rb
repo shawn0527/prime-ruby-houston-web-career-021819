@@ -5,7 +5,6 @@ def prime? (number) # Add  code here!
     if number % array[counter] == 0
       test_array = Array.new.push(array[counter])
       counter += 1
-    else
   end
 end
 
