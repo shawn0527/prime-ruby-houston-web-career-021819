@@ -8,6 +8,8 @@ def prime? (number) # Add  code here!
       counter += 1
     else
   end
+end
+
   if test_array == [1, number]
     return 'true'
   else
