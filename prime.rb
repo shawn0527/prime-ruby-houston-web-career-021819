@@ -1,5 +1,5 @@
 def prime? (number) # Add  code here!
-  (1..number).to_array
+  array = (1..number).to_a
   counter = 0
   loop do
     if number % array[counter] == 0
