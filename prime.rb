@@ -1,6 +1,6 @@
 def prime? (number) # Add  code here!
 counter = 2
-  if number < 1
+  if number <= 1
     return false
   end
   while counter < number
