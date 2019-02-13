@@ -8,9 +8,9 @@ def prime? (number) # Add  code here!
       counter += 1
     else
   end
-
   if test_array == [1, number]
     return 'true'
   else
     return 'false'
+  end
 end
