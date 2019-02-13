@@ -1,10 +1,9 @@
 def prime? (number) # Add  code here!
-  array=[]
-  new_array = array.push(1..number)
+  (1..number).to_array
   counter = 0
   loop do
-    if number % new_array[counter] == 0
-      test_array = Array.new.push(new_array[counter])
+    if number % array[counter] == 0
+      test_array = Array.new.push(array[counter])
       counter += 1
     else
   end
